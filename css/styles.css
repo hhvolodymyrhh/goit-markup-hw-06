@@ -307,6 +307,7 @@ margin: 0;
 @media screen and (min-width:768px) {
     .features-box {
             display: flex;
+            flex-direction: row;
             flex-wrap: wrap;
             gap: 72px 24px;
             }
@@ -425,6 +426,7 @@ margin: 0;
 @media screen and (min-width:768px) {
     .team-box {
             display: flex;
+            flex-direction: row;
             flex-wrap: wrap;
             gap: 24px 64px;
         }
@@ -522,6 +524,7 @@ margin: 0;
 @media screen and (min-width:768px) {
     .portfolio-box {
             display: flex;
+            flex-direction: row;
             flex-wrap: wrap;
             gap: 24px 72px;
             
@@ -633,8 +636,9 @@ margin: 0;
 
 .form-footer {
     display: flex;
-    gap: 24px;
-    align-items: end;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
 }
 
 .input-footer {
@@ -683,12 +687,21 @@ margin: 0;
 @media screen and (min-width:768px) {
     .container-footer {
             display: flex;
+            flex-direction: row;
             flex-wrap: wrap;
-            gap: 24px 72px;
-            width: calc((100%-24)/2);
+            gap: 72px 24px; 
+            width: 584px;
+            
         }
+    
     .box-footer {
 
+    }
+    .form-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        align-items: end;
     }
 }
 
@@ -699,7 +712,6 @@ margin: 0;
     .container-footer {
         display: flex;
         align-items: baseline;
-
     }
     .box-footer {
         margin-right: 120px;
