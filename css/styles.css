@@ -310,10 +310,10 @@ margin: 0;
             flex-wrap: wrap;
             row-gap: 24px;
             column-gap: 72px;
-            width: calc((100% - 24px) / 2);
+            
             }
     .features-list {
-
+        width: calc((100% - 24px) / 2);
     }   
 }
 
