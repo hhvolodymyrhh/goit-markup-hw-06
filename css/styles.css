@@ -514,7 +514,8 @@ margin: 0;
 }
 
 .portfolio-card-img{
-   
+   display: block;
+   max-width: 100%;
 }
 
 .portfolio-text{
