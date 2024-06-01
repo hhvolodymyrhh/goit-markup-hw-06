@@ -233,6 +233,11 @@ margin: 0;
     background-color: #404bbf;
     cursor: pointer;
 }
+@media (min-resolution: 192dpi) {
+    .solutions-section {
+        background-image: url(../images/max-screen/solutions.jpg);
+    }
+}
 @media screen and (min-width:768px) {
     .solutions-section {
         padding: 112px 0;
@@ -387,6 +392,12 @@ margin: 0;
     background: #fff;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
+
+.team-img{
+    display: block;
+    max-width: 100%;
+}
+
 .team-wrapper{
     padding: 32px 0;
 }
@@ -758,11 +769,7 @@ margin: 0;
         justify-content: flex-start;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1157px){
-    .container-footer {
-        width: 584px;
-    }
-}
+
 
 @media screen and (min-width:1158px) {
     .page-footer {
