@@ -235,7 +235,8 @@ margin: 0;
 }
 @media (min-resolution: 192dpi) {
     .solutions-section {
-        background-image: url(../images/max-screen/solutions.jpg);
+        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/max-screen/solutions.jpg);
     }
 }
 @media screen and (min-width:768px) {
